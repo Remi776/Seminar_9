@@ -1,7 +1,7 @@
 ﻿void NumberMultipleThree(int a, int b)
 {
     if (a > b) return;
-    if (a % 3 == 0 && a <= b) Console.Write($"{a,-5}");
+    if (a % 3 == 0) Console.Write($"{a,-5}");
     NumberMultipleThree(a + 1, b);
 }
 
